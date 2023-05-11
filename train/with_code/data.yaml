@@ -1,0 +1,9 @@
+# Full paths of train and val datasets
+train: /home/nspapilon/Desktop/yolo_object_detection/yoloV8_custom_object_detection/for_git_hub/train/dataset/train/images/
+val: /home/nspapilon/Desktop/yolo_object_detection/yoloV8_custom_object_detection/for_git_hub/train/dataset/val/images/
+
+# Number of class
+nc: 1
+
+# Class names
+names: ['military aircraft']
