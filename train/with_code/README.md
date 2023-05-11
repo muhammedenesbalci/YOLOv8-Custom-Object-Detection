@@ -1,13 +1,14 @@
+
 ## YOLOv8 Custom Object Detection with Code  
-
- - Pip install the ultralytics package including all requirements.  
-      ```
-     pip install ultralytics
-     ```
- - Prepare ***data.yaml*** file. Necessary details are written in the file.
- - Run ***main.py***.
- - Best model and latest model in **runs/detect/yolov8_custom_object_detection/weights/** .
-
+  
+- Pip install the ultralytics package including all requirements.  
+```  
+pip install ultralytics  
+```  
+- Prepare ***data.yaml*** file. Necessary details are written in the file.  
+- Run ***main.py***.  
+- Best model and latest model in ***runs/detect/yolov8_custom_object_detection/weights/*** .  
+  
 **Models**  
   
 | Model | size<br><sup>(pixels) | mAP<sup>val<br>50-95 | Speed<br><sup>CPU ONNX<br>(ms) | Speed<br><sup>A100 TensorRT<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |  
@@ -16,10 +17,10 @@
 | [YOLOv8s](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt) | 640 | 44.9 | 128.4 | 1.20 | 11.2 | 28.6 |  
 | [YOLOv8m](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt) | 640 | 50.2 | 234.7 | 1.83 | 25.9 | 78.9 |  
 | [YOLOv8l](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt) | 640 | 52.9 | 375.2 | 2.39 | 43.7 | 165.2 |  
-| [YOLOv8x](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt) | 640 | 53.9 | 479.1 | 3.53 | 68.2 | 257.8 |
-
- **Arguments**
-
+| [YOLOv8x](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt) | 640 | 53.9 | 479.1 | 3.53 | 68.2 | 257.8 |  
+  
+**Arguments**  
+  
 model None path to model file, i.e. yolov8n.pt, yolov8n.yaml  
 data None path to data file, i.e. coco128.yaml  
 epochs 100 number of epochs to train for  
@@ -62,8 +63,8 @@ nbs 64 nominal batch size
 overlap_mask True masks should overlap during training (segment train only)  
 mask_ratio 4 mask downsample ratio (segment train only)  
 dropout 0.0 use dropout regularization (classify train only)  
-val True validate/test during training
-
-**Resources**
- - https://docs.ultralytics.com/modes/train/
- - https://github.com/ultralytics/ultralytics
+val True validate/test during training  
+  
+**Resources**  
+- https://docs.ultralytics.com/modes/train/  
+- https://github.com/ultralytics/ultralytics
