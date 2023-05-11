@@ -1,4 +1,4 @@
-## YOLOv8 object detection with CLI(Command Line Interface)
+## YOLOv8 Custom Object Detection with CLI(Command Line Interface)
 
 **Usage**
 

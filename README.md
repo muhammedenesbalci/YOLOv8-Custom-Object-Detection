@@ -1,4 +1,4 @@
-## YOLOv8 Object Detection with Code and CLI(Command Line Interface)  
+## YOLOv8 Custom Object Detection with Code and CLI(Command Line Interface)  
 In this repo, I am using the YOLOv8 models that trained with custom dataset, with code and CLI(Command Line Interface). I performed my tests on military aircrafts.  
   
 **Contents**  
