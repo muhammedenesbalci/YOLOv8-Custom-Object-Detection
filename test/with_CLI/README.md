@@ -10,8 +10,9 @@ Run this command in CLI.
 
     yolo predict model=best.pt source='img.jpg' show=True save_txt=True  
 
-**Arguments**
 
+
+**Arguments**
 
 - source	'ultralytics/assets'	source directory for images or videos
 - conf	0.25	object confidence threshold for detection
