@@ -168,15 +168,12 @@ def customized_annotations_video(video_pth):
     cv2.destroyAllWindows()
 
 
-# img_pth = "../datas/test_img.jpg"
+img_pth = "../datas/test_img.jpg"
 
-# automatic_annotations_img(img_pth)
-# customized_annotations_img(img_pth)
+automatic_annotations_img(img_pth)
+customized_annotations_img(img_pth)
 
-# video_pth = "../datas/test_video.mp4"
+video_pth = "../datas/test_video.mp4"
 
-# automatic_annotations_video(video_pth)
-# customized_annotations_video(video_pth)
-
-img = cv2.imread("/home/nspapilon/Desktop/yolo_object_detection/yoloV8_custom_object_detection/for_git_hub/test/datas/test_img_result_automatic.jpg")
-cv2.imwrite("/home/nspapilon/Desktop/yolo_object_detection/yoloV8_custom_object_detection/for_git_hub/test/datas/test_img_result_automatic.jpg", cv2.resize(img, (600, 338)))
+automatic_annotations_video(video_pth)
+customized_annotations_video(video_pth)
