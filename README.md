@@ -21,7 +21,5 @@ Customized annotations on videos and images.
 ![alt-text](https://github.com/muhammedenesbalci/YOLOv8-Custom-Object-Detection/blob/main/test/datas/test_img_result_automatic.jpg?raw=true)
 
 
-**Resources**  
-  
-- https://docs.ultralytics.com/modes/predict/  
+**Resources**
 - https://github.com/ultralytics/ultralytics
