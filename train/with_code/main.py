@@ -9,7 +9,7 @@ model.train(
     imgsz=640,
     epochs=10,
     batch=4,
-    name='yolov8n_custom_object detection',
+    name='yolov8_custom_object_detection',
     device='CPU',
     pretrained=True
 )
