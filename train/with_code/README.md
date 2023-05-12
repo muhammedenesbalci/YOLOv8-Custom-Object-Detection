@@ -1,11 +1,9 @@
-
-  
 ## YOLOv8 Custom Object Detection with Code  
   
  - Pip install the ultralytics package including all requirements.  
-```  
-pip install ultralytics  
-```  
+    ```  
+    pip install ultralytics  
+    ```  
  - Prepare ***data.yaml*** file. Necessary details are written in the file.  
  - Run ***main.py***.  
  - Best model and latest model in ***runs/detect/yolov8_custom_object_detection/weights/*** .  
@@ -66,6 +64,3 @@ pip install ultralytics
 - dropout 0.0 use dropout regularization (classify train only)  
 - val True validate/test during training  
   
-**Resources**  
-- https://docs.ultralytics.com/modes/train/  
-- https://github.com/ultralytics/ultralytics

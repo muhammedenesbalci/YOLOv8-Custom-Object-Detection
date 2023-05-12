@@ -8,9 +8,7 @@ Pip install the ultralytics package including all requirements.
 
 Run this command in CLI.  
 
-    yolo predict model=best.pt source='img.jpg' show=True save_txt=True  
-
-
+    yolo predict model=best.pt source='img.jpg' show=True save_txt=True
 
 **Arguments**
 

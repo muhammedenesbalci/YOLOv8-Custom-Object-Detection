@@ -5,6 +5,7 @@
     pip install ultralytics
     ```
  - Prepare ***data.yaml*** file. Necessary details are written in the file.
+ - Run this command.
     ```
      yolo task=detect mode=train model=yolov8n.pt imgsz=640 data=data.yaml epochs=10 batch=4 pretrained=True name=yolov8_custom_object_detection device=cpu
      ```
@@ -68,6 +69,3 @@
 - dropout 0.0 use dropout regularization (classify train only)  
 - val True validate/test during training  
 
-**Resources**
- - https://docs.ultralytics.com/modes/train/
- - https://github.com/ultralytics/ultralytics
